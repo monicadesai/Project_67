@@ -3,8 +3,8 @@ import pandas as pd
 
 st.title('Predicting Salaries')
 
-default_dd=pd.read_csv('/Users/Monica/Desktop/salary_prediction_app/simple_data.csv')
-
+#default_dd=pd.read_csv('/Users/Monica/Desktop/salary_prediction_app/simple_data.csv')
+default_dd=pd.read_csv('simple_data.csv')
 #default_dd=pd.read_csv('/Users/Monica/Desktop/Projects/Python_Projects_1/23)End_To_End_Projects/Project_3_ML_Scrape_To_Deployment_EndToEnd_SalaryPrediction/Project_ML_SalaryPrediction/simple_data.csv')
 
 _job_title=list(default_dd['Job Title'].unique())
